@@ -1,0 +1,51 @@
+.topic{
+    border-top: 1px inset orange;
+    border-bottom: 1px inset orange;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: rgba(255, 166, 0, 0.150);
+}
+
+.others{
+    position: fixed;
+    right: 0;
+    width: 300px;
+}
+
+.topic:hover{
+    background-color: rgba(255, 166, 0, 0.5);  
+}
+body{
+    background-color: rgba(255, 255, 0, 0.466);
+}
+#header-img{
+   display: block;
+   margin: auto; 
+}
+h2{
+    font: 4vw Helvetica;
+    font-variant: small-caps;
+    text-align: center;
+}
+a:link{
+    font-size: 3vw;
+    color: rgb(255, 72, 0);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 72, 0);
+}
+a:hover{
+    text-shadow: 5px 2px 5px #929191;
+    text-decoration: overline;
+}
+a:active{
+    font-style: italic;
+    background-color: #ccccccd3;
+}
+

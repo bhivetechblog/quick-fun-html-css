@@ -1,0 +1,37 @@
+th, td{
+    border: 1px solid;
+}
+
+h1{
+    color: brown;
+}
+
+.math{
+    background-color: red;
+    color: white;
+}
+.history{
+    background-color: brown;
+    color: white;
+}
+.grammar{
+    background-color: green;
+    color: white;
+}
+.music{
+    background-color: #9899cf;
+}
+.reading{
+    background-color: #ffccff;
+}
+.arts{
+    color: red;
+}
+.pe{
+    background-color: #aaaaaa;
+    color: white;
+}
+.breaks{
+    color:rgb(4, 0, 255);
+}
+

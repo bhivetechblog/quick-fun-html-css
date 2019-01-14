@@ -1,0 +1,59 @@
+body{
+    background-image: url("images/hands.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+table, td, th{
+    border-bottom: 2px red solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+tr:nth-child(even){
+    background-color: rgba(255, 0, 0, 0.137);
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+    text-shadow: 5px 5px 10px #777777;
+}
+
+.math{
+    color: rgb(255, 187, 0);
+}
+.history{
+    color: brown;
+}
+.grammar{
+    color: green;
+}
+.music{
+    color: #9899cf;
+}
+.reading{
+    color: #1088f8;
+}
+.arts{
+    color: rgb(0, 225, 255);
+}
+.pe{
+    color: #504f4f;
+}
+.breaks{
+    color:rgb(4, 0, 255);
+}
+tr:hover{
+    background-color: red;
+    color: white ;
+}
+
